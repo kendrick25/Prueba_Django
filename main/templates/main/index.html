@@ -62,7 +62,9 @@ Start Content
 </section>
 
 <section>
+  <div class="separation">
   <div class="sectionSpace pt-0">
+    <hr>
     <div class="container">
       <div class="row">
         <div class="col-md-auto">
@@ -110,6 +112,7 @@ Start Content
       </div>
     </div>
   </div>
+</div>
 </section>
 
 <section>
@@ -152,7 +155,7 @@ Start Content
 </section>
 
 <section>
-  <div class="sectionSpace">
+  <div class="sectionSpace2">
     <div class="container">
       <div class="portfolioCol">
         <div class="row pb-3">
@@ -160,7 +163,9 @@ Start Content
             <h4 class="smText regular">Featured Work</h4>
           </div>
           <div class="col-auto">
+            <div class= "smTextview">
             <a href="{% url 'main:portfolios' %}" class="simpleLink">View all</a>
+            </div>
           </div>
         </div>
         {% for p in portfolio %}
@@ -227,14 +232,16 @@ Start Content
 </section>
 
 <section>
-  <div class="sectionSpaceSm lightBg">
+  <div class="sectionmsg lightBg">
     <div class="container">
       <div class="row pb-3">
         <div class="col">
           <h4 class="smText regular">Recent posts</h4>
         </div>
         <div class="col-auto">
+          <div class="smTextview regular">
           <a href="{% url 'main:blogs' %}" class="simpleLink">View all</a>
+          </div>
         </div>
       </div>
       <div class="row g-3">

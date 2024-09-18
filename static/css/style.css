@@ -13,7 +13,7 @@ font-family: 'Heebo', sans-serif; */
   --medium: 500;
   --bold: 700;
   --black: 900;
-  --lightBg: #F1F1F1;
+  --lightBg: #cecbcb;
 }
 html {
   scroll-behavior: smooth;
@@ -114,7 +114,13 @@ a, .btn {
   font-family: var(--titleFont)
 }
 .smText {
+  color:#F9B000;
+  font-weight: 600;
   font-size: 22px;
+}
+.smTextview {
+  color:#F9B000;
+  font-weight: 600;
 }
 .xsTitle {
   font-size: 18px;
@@ -292,12 +298,6 @@ a, .btn {
 	padding-top: 15px;
 }
 
-.sectionSpace {
-  padding: 80px 0;
-}
-.sectionSpaceSm {
-  padding: 35px 0;
-}
 .ksText {
 	display: block;
 	padding-top: 10px;
@@ -329,6 +329,7 @@ a, .btn {
 }
 
 .cardOptionCol > li {
+
 	display: inline-block;
 	vertical-align: middle;
   position: relative;
@@ -345,8 +346,9 @@ a, .btn {
 	padding: 5px 0 10px;
 }
 .cardStyle1 {
+  color: #F9B000;
 	padding: 25px;
-	background-color: var(--bs-white);
+	background-color: rgba(63, 62, 62, 0.5);
 	border-radius: 4px;
   height: 100%;
 }
@@ -471,12 +473,14 @@ body.navToggleActive {
   padding-left: 35px;
 }
 .socialCol img {
+
   max-width: 30px;
   max-height: 30px;
   -o-object-fit: contain;
   object-fit: contain;
 }
 .copyrightCol {
+  color:#F9B000;
 	padding: 20px 0 0;
   font-size: 14px;
 }
@@ -705,9 +709,7 @@ body.navToggleActive {
   .navCol a {
     opacity: 0.8;
   }
-  .logoCol img {
-  	width: 50px;
-  }
+
   .fixedHeader .headerCol,  .headerCol {
   	padding: 10px 0;
   }
@@ -774,4 +776,36 @@ input[type=text], input[type=email], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical
+}
+
+.logoCol img{
+  width: 40px;
+  height: 40px;
+  max-height: 50px;
+}
+.separation{
+  background-color: #F1F1F1;
+  padding-bottom: 20px;
+}
+.sectionSpace {
+
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.sectionSpaceSm {
+  background-color: #ebe8e8;
+  padding: 35px 0;
+}
+.sectionSpace2 {
+  background-color: #d8d6d6;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.sectionmsg {
+  padding: 35px 0;
+  background-color: rgb(134, 131, 131);
 }
